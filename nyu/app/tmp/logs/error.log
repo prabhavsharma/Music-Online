@@ -1,0 +1,2938 @@
+2014-11-30 22:33:26 Error: [MissingControllerException] Controller class Cover.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Cover.cssController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/cover.css
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 22:34:36 Error: [MissingControllerException] Controller class Cover.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Cover.cssController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/cover.css
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 22:35:44 Error: [MissingControllerException] Controller class Cover.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Cover.cssController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/cover.css
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 22:45:01 Error: [MissingControllerException] Controller class Login.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Login.phpController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/login.php
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 22:45:09 Error: [MissingActionException] Action UsersController::login.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login.php',
+)
+Request URL: /nyu/Users/login.php
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 08:04:47 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\wamp\www\nyu\app\Controller\UsersController.php, line 31]
+2014-12-01 08:04:47 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /nyu/users/add
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 31, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\nyu...', 31, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 08:06:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /nyu/users/add
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ny...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ny...')
+#3 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1854): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp\www\nyu\app\Controller\UsersController.php(10): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-01 08:07:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /nyu/users/add
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ny...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ny...')
+#3 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1854): DboSource->create(Object(User), Array, Array)
+#4 C:\wamp\www\nyu\app\Controller\UsersController.php(11): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-01 08:10:09 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /nyu/Users/login
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 08:10:42 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /nyu/Users/login
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 08:28:50 Error: Fatal Error (1): Class 'AuthComponent' not found in [C:\wamp\www\nyu\app\Model\User.php, line 51]
+2014-12-01 08:28:50 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /nyu/Users/add
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'C:\wamp\www\nyu...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'C:\wamp\www\nyu...', 51, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'C:\wamp\www\nyu...', 51, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 09:01:17 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/Homes/taste
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:01:51 Error: [MissingControllerException] Controller class HomesController could not be found.
+Exception Attributes: array (
+  'class' => 'HomesController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/Homes/taste
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:02:02 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /nyu/Homes/taste
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(HomesController))
+#1 C:\wamp\www\nyu\lib\Cake\Controller\Component\AuthComponent.php(501): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\wamp\www\nyu\lib\Cake\Controller\Component\AuthComponent.php(463): AuthComponent->constructAuthorize()
+#3 C:\wamp\www\nyu\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(HomesController))
+#5 C:\wamp\www\nyu\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp\www\nyu\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-01 09:03:04 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /nyu/Homes/taste
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(HomesController))
+#1 C:\wamp\www\nyu\lib\Cake\Controller\Component\AuthComponent.php(501): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\wamp\www\nyu\lib\Cake\Controller\Component\AuthComponent.php(463): AuthComponent->constructAuthorize()
+#3 C:\wamp\www\nyu\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(HomesController))
+#5 C:\wamp\www\nyu\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp\www\nyu\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-01 09:04:30 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /nyu/Homes/taste
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(HomesController))
+#1 C:\wamp\www\nyu\lib\Cake\Controller\Component\AuthComponent.php(501): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\wamp\www\nyu\lib\Cake\Controller\Component\AuthComponent.php(463): AuthComponent->constructAuthorize()
+#3 C:\wamp\www\nyu\lib\Cake\Controller\Component\AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(HomesController))
+#5 C:\wamp\www\nyu\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\wamp\www\nyu\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-01 09:05:23 Error: [MissingViewException] View file "C:\wamp\www\nyu\app\View\Homes\taste.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\nyu\\app\\View\\Homes\\taste.ctp',
+)
+Request URL: /nyu/Homes/taste
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#4 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-01 09:08:38 Error: Fatal Error (64): Cannot redeclare class User in [C:\wamp\www\nyu\app\Model\Taste.php, line 5]
+2014-12-01 09:08:38 Error: [FatalErrorException] Cannot redeclare class User
+Request URL: /nyu/Homes/taste
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 09:09:16 Error: Fatal Error (64): Cannot redeclare class User in [C:\wamp\www\nyu\app\Model\Taste.php, line 5]
+2014-12-01 09:09:16 Error: [FatalErrorException] Cannot redeclare class User
+Request URL: /nyu/Homes/taste
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 09:09:45 Error: Fatal Error (64): Cannot redeclare class User in [C:\wamp\www\nyu\app\Model\Taste.php, line 5]
+2014-12-01 09:09:45 Error: [FatalErrorException] Cannot redeclare class User
+Request URL: /nyu/Homes/taste
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 09:51:25 Error: [MissingControllerException] Controller class BandsController could not be found.
+Exception Attributes: array (
+  'class' => 'BandsController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/bands/create
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 09:59:17 Error: Fatal Error (64): Cannot redeclare class Taste in [C:\wamp\www\nyu\app\Model\Band.php, line 5]
+2014-12-01 09:59:17 Error: [FatalErrorException] Cannot redeclare class Taste
+Request URL: /nyu/bands/create
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 09:59:54 Error: Fatal Error (64): Cannot redeclare class Taste in [C:\wamp\www\nyu\app\Model\Band.php, line 5]
+2014-12-01 09:59:54 Error: [FatalErrorException] Cannot redeclare class Taste
+Request URL: /nyu/bands/create
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\nyu...', 5, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 10:12:05 Error: [MissingControllerException] Controller class BandController could not be found.
+Exception Attributes: array (
+  'class' => 'BandController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/Band
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:13:01 Error: [MissingControllerException] Controller class BandController could not be found.
+Exception Attributes: array (
+  'class' => 'BandController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/Band
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:14:32 Error: [MissingControllerException] Controller class BandController could not be found.
+Exception Attributes: array (
+  'class' => 'BandController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/Band
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:16:04 Error: [MissingActionException] Action BandsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'BandsController',
+  'action' => 'index',
+)
+Request URL: /nyu/Bands
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(BandsController), Object(CakeRequest))
+#2 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-01 10:17:18 Error: [MissingViewException] View file "C:\wamp\www\nyu\app\View\Bands\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\nyu\\app\\View\\Bands\\index.ctp',
+)
+Request URL: /nyu/Bands
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(BandsController), Object(CakeRequest))
+#4 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-01 10:42:26 Error: [MissingControllerException] Controller class BandController could not be found.
+Exception Attributes: array (
+  'class' => 'BandController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/band/create_concert
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:42:41 Error: [MissingControllerException] Controller class BandController could not be found.
+Exception Attributes: array (
+  'class' => 'BandController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/band/create_concert
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 10:52:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'band_name' cannot be null
+Request URL: /nyu/bands/create_concert
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ny...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ny...')
+#3 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Band), Array, Array)
+#4 C:\wamp\www\nyu\app\Controller\BandsController.php(55): Model->save(Array)
+#5 [internal function]: BandsController->create_concert()
+#6 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BandsController), Array)
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(BandsController), Object(CakeRequest))
+#9 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-01 11:01:58 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'concert_band' cannot be null
+Request URL: /nyu/bands/create_concert
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ny...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ny...')
+#3 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Concert), Array, Array)
+#4 C:\wamp\www\nyu\app\Controller\BandsController.php(61): Model->save(Array)
+#5 [internal function]: BandsController->create_concert()
+#6 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BandsController), Array)
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(BandsController), Object(CakeRequest))
+#9 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-01 11:04:55 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'concert_band' cannot be null
+Request URL: /nyu/bands/create_concert
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ny...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ny...')
+#3 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Concert), Array, Array)
+#4 C:\wamp\www\nyu\app\Controller\BandsController.php(61): Model->save(Array)
+#5 [internal function]: BandsController->create_concert()
+#6 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BandsController), Array)
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(BandsController), Object(CakeRequest))
+#9 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-01 11:07:34 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\nyu\app\View\Bands\create_concert.ctp, line 45]
+2014-12-01 11:07:34 Error: [FatalErrorException] Unsupported operand types
+Request URL: /nyu/bands/create_concert
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 45, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 45, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 11:13:45 Error: [MissingControllerException] Controller class BandController could not be found.
+Exception Attributes: array (
+  'class' => 'BandController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/band/create
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-01 11:13:55 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\nyu\app\View\Bands\create.ctp, line 38]
+2014-12-01 11:13:55 Error: [FatalErrorException] Unsupported operand types
+Request URL: /nyu/bands/create
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 38, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 38, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 11:14:16 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\nyu\app\View\Bands\create.ctp, line 38]
+2014-12-01 11:14:16 Error: [FatalErrorException] Unsupported operand types
+Request URL: /nyu/bands/create
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 38, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 38, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 11:15:55 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\nyu\app\View\Bands\create.ctp, line 38]
+2014-12-01 11:15:55 Error: [FatalErrorException] Unsupported operand types
+Request URL: /nyu/bands/create
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 38, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\wamp\www\nyu...', 38, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-01 11:48:06 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /nyu/users/
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-02 21:04:41 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 13]
+2014-12-02 21:04:41 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 13, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\nyu...', 13, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 21:45:53 Error: Fatal Error (1): Call to a member function compact() on a non-object in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 43]
+2014-12-02 21:45:53 Error: [FatalErrorException] Call to a member function compact() on a non-object
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 43, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\nyu...', 43, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 21:46:30 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 43]
+2014-12-02 21:46:30 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 43, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\nyu...', 43, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 21:47:02 Error: Fatal Error (1): Class 'DboSource' not found in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 15]
+2014-12-02 21:47:02 Error: [FatalErrorException] Class 'DboSource' not found
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', 'C:\wamp\www\nyu...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', 'C:\wamp\www\nyu...', 15, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', 'C:\wamp\www\nyu...', 15, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 22:21:01 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'nyu.user' doesn't exist
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Post), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(52): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-02 22:27:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(37): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-02 22:58:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(36): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-02 23:12:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(36): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-02 23:14:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(36): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-02 23:14:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(36): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-02 23:14:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(36): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-02 23:14:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(36): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-02 23:20:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(36): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-03 07:10:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'on clause'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Post), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(6): Model->find('all')
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-03 07:11:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'on clause'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Post), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(6): Model->find('all')
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-03 07:11:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(38): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-03 07:31:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(41): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-03 07:31:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(41): Model->find('all', Array)
+#7 [internal function]: HomesController->index()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-03 11:14:40 Error: Fatal Error (1): Call to undefined method HomesController::is() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 56]
+2014-12-03 11:14:40 Error: [FatalErrorException] Call to undefined method HomesController::is()
+Request URL: /nyu/Homes/edit_profile
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\nyu...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\nyu...', 56, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\nyu...', 56, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-03 11:23:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.palce' in 'field list'
+Request URL: /nyu/Homes/edit_profile
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `nyu`.`u...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\Database\Mysql.php(414): DboSource->execute('UPDATE `nyu`.`u...')
+#3 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2585): Mysql->update(Object(User), Array, NULL, Array)
+#4 C:\wamp\www\nyu\app\Controller\HomesController.php(68): Model->updateAll(Array, Array)
+#5 [internal function]: HomesController->edit_profile()
+#6 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#9 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-03 11:25:27 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 72]
+2014-12-03 11:25:27 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /nyu/Homes/edit_profile
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 72)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 72, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\nyu...', 72, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-03 11:30:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 61]
+2014-12-03 11:30:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /nyu/Homes/edit_profile
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 61, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\nyu...', 61, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-03 11:55:00 Error: [MissingActionException] Action HomesController::music_taste() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomesController',
+  'action' => 'music_taste',
+)
+Request URL: /nyu/Homes/music_taste
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#2 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-03 14:42:47 Warning: Warning (2): implode(): Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 123]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 123
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 14:42:47 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 123]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 123
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 14:42:47 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 123]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 123
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:06:13 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+explode - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:06:13 Warning: Warning (2): array_map() [<a href='http://php.net/function.array-map'>function.array-map</a>]: Argument #2 should be an array in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+array_map - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:06:43 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+explode - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:06:43 Warning: Warning (2): array_map() [<a href='http://php.net/function.array-map'>function.array-map</a>]: Argument #2 should be an array in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+array_map - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:07:00 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+explode - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:07:00 Warning: Warning (2): array_map() [<a href='http://php.net/function.array-map'>function.array-map</a>]: Argument #2 should be an array in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+array_map - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:07:34 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+explode - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:07:34 Warning: Warning (2): array_map() [<a href='http://php.net/function.array-map'>function.array-map</a>]: Argument #2 should be an array in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+array_map - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:07:41 Warning: Warning (2): implode(): Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 127]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 127
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:07:41 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 127]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 127
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:07:41 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 127]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 127
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:07:41 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+explode - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:07:41 Warning: Warning (2): array_map() [<a href='http://php.net/function.array-map'>function.array-map</a>]: Argument #2 should be an array in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+array_map - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:08:14 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+explode - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:08:14 Warning: Warning (2): array_map() [<a href='http://php.net/function.array-map'>function.array-map</a>]: Argument #2 should be an array in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 34]
+Trace:
+array_map - [internal], line ??
+include - APP\View\Elements\right.ctp, line 34
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::_renderElement() - CORE\Cake\View\View.php, line 1213
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Homes\music_taste.ctp, line 169
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:11:28 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 12]
+Trace:
+explode - [internal], line ??
+HomesController::beforeFilter() - APP\Controller\HomesController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 242
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:11:43 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 12]
+Trace:
+explode - [internal], line ??
+HomesController::beforeFilter() - APP\Controller\HomesController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 242
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:11:45 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 12]
+Trace:
+explode - [internal], line ??
+HomesController::beforeFilter() - APP\Controller\HomesController.php, line 12
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 242
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 15:12:34 Warning: Warning (2): explode() expects parameter 2 to be string, array given in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 13]
+Trace:
+explode - [internal], line ??
+HomesController::beforeFilter() - APP\Controller\HomesController.php, line 13
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 242
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 17:57:28 Warning: Warning (2): implode(): Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 142]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 17:57:28 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 142]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 17:57:28 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 142]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 17:57:28 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 142]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 17:57:28 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 142]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 18:16:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'login_id' cannot be null
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ny...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ny...')
+#3 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Post), Array, Array)
+#4 C:\wamp\www\nyu\app\Controller\HomesController.php(46): Model->save(Array)
+#5 [internal function]: HomesController->index()
+#6 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#9 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-03 18:16:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'login_id' cannot be null
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ny...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ny...')
+#3 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Post), Array, Array)
+#4 C:\wamp\www\nyu\app\Controller\HomesController.php(46): Model->save(Array)
+#5 [internal function]: HomesController->index()
+#6 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#9 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-03 18:49:53 Error: [MissingActionException] Action UsersController::search_term() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'search_term',
+)
+Request URL: /nyu/users/search_term
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-03 18:50:10 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'homes',
+  'class' => 'Home',
+  'ds' => 'default',
+)
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Model.php(3566): Model->setSource('homes')
+#1 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\wamp\www\nyu\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\wamp\www\nyu\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Home', 'fields')
+#4 C:\wamp\www\nyu\app\View\Elements\search.ctp(4): FormHelper->create('Home', Array, Array)
+#5 C:\wamp\www\nyu\lib\Cake\View\View.php(948): include('C:\wamp\www\nyu...')
+#6 C:\wamp\www\nyu\lib\Cake\View\View.php(910): View->_evaluate('C:\wamp\www\nyu...', Array)
+#7 C:\wamp\www\nyu\lib\Cake\View\View.php(1213): View->_render('C:\wamp\www\nyu...', Array)
+#8 C:\wamp\www\nyu\lib\Cake\View\View.php(418): View->_renderElement('C:\wamp\www\nyu...', Array, Array)
+#9 C:\wamp\www\nyu\app\View\Homes\index.ctp(4): View->element('search')
+#10 C:\wamp\www\nyu\lib\Cake\View\View.php(948): include('C:\wamp\www\nyu...')
+#11 C:\wamp\www\nyu\lib\Cake\View\View.php(910): View->_evaluate('C:\wamp\www\nyu...', Array)
+#12 C:\wamp\www\nyu\lib\Cake\View\View.php(471): View->_render('C:\wamp\www\nyu...')
+#13 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#14 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#15 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#16 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-12-03 18:50:13 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'homes',
+  'class' => 'Home',
+  'ds' => 'default',
+)
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Model.php(3566): Model->setSource('homes')
+#1 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\wamp\www\nyu\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\wamp\www\nyu\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Home', 'fields')
+#4 C:\wamp\www\nyu\app\View\Elements\search.ctp(4): FormHelper->create('Home', Array, Array)
+#5 C:\wamp\www\nyu\lib\Cake\View\View.php(948): include('C:\wamp\www\nyu...')
+#6 C:\wamp\www\nyu\lib\Cake\View\View.php(910): View->_evaluate('C:\wamp\www\nyu...', Array)
+#7 C:\wamp\www\nyu\lib\Cake\View\View.php(1213): View->_render('C:\wamp\www\nyu...', Array)
+#8 C:\wamp\www\nyu\lib\Cake\View\View.php(418): View->_renderElement('C:\wamp\www\nyu...', Array, Array)
+#9 C:\wamp\www\nyu\app\View\Homes\index.ctp(4): View->element('search')
+#10 C:\wamp\www\nyu\lib\Cake\View\View.php(948): include('C:\wamp\www\nyu...')
+#11 C:\wamp\www\nyu\lib\Cake\View\View.php(910): View->_evaluate('C:\wamp\www\nyu...', Array)
+#12 C:\wamp\www\nyu\lib\Cake\View\View.php(471): View->_render('C:\wamp\www\nyu...')
+#13 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#14 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#15 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#16 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-12-03 20:41:52 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 38]
+2014-12-03 20:41:52 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /nyu/homes/
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 38, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\nyu...', 38, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-03 20:51:29 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\search_term.ctp, line 13]
+Trace:
+include - APP\View\Homes\search_term.ctp, line 13
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 20:51:46 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\search_term.ctp, line 13]
+Trace:
+include - APP\View\Homes\search_term.ctp, line 13
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 20:52:47 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\search_term.ctp, line 13]
+Trace:
+include - APP\View\Homes\search_term.ctp, line 13
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 20:53:41 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\search_term.ctp, line 13]
+Trace:
+include - APP\View\Homes\search_term.ctp, line 13
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 20:58:10 Error: [MissingActionException] Action HomesController::favicon.ico() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomesController',
+  'action' => 'favicon.ico',
+)
+Request URL: /nyu/Homes/favicon.ico
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#2 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-03 21:00:20 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 18]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 18
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:03:47 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 19]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 19
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:04:32 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 19]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 19
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:05:16 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:05:34 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:06:25 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:06:51 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:07:27 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:07:51 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:09:44 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:09:46 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:10:05 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:12:01 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:12:23 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:15:41 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:15:45 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_profile.ctp, line 20]
+Trace:
+include - APP\View\Homes\view_profile.ctp, line 20
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:36:58 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'login_id' cannot be null
+Request URL: /nyu/Homes/
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ny...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ny...')
+#3 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Post), Array, Array)
+#4 C:\wamp\www\nyu\app\Controller\HomesController.php(62): Model->save(Array)
+#5 [internal function]: HomesController->index()
+#6 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#9 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-03 21:37:17 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'login_id' cannot be null
+Request URL: /nyu/Homes/
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ny...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ny...')
+#3 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Post), Array, Array)
+#4 C:\wamp\www\nyu\app\Controller\HomesController.php(62): Model->save(Array)
+#5 [internal function]: HomesController->index()
+#6 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#9 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-03 21:43:16 Warning: Warning (2): implode(): Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 159]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 159
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:43:16 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 159]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 159
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:43:16 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 159]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 159
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:43:16 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 159]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 159
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-03 21:43:16 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 159]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 159
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 08:45:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'place' in 'where clause'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Concert...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Concert...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Concert...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Concert), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(31): Model->find('all', Array)
+#7 [internal function]: HomesController->beforeFilter(Object(CakeEvent))
+#8 C:\wamp\www\nyu\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#11 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#12 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-04 08:45:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'place' in 'where clause'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Concert...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Concert...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Concert...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Concert), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(31): Model->find('all', Array)
+#7 [internal function]: HomesController->beforeFilter(Object(CakeEvent))
+#8 C:\wamp\www\nyu\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#11 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#12 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-04 08:45:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'place' in 'where clause'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Concert...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Concert...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Concert...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Concert), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(31): Model->find('all', Array)
+#7 [internal function]: HomesController->beforeFilter(Object(CakeEvent))
+#8 C:\wamp\www\nyu\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#11 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#12 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-04 09:27:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'place' in 'where clause'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Concert...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Concert...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Concert...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Concert), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(31): Model->find('all', Array)
+#7 [internal function]: HomesController->beforeFilter(Object(CakeEvent))
+#8 C:\wamp\www\nyu\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#11 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#12 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-04 09:27:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'place' in 'where clause'
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Concert...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Concert...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Concert...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Concert), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\HomesController.php(31): Model->find('all', Array)
+#7 [internal function]: HomesController->beforeFilter(Object(CakeEvent))
+#8 C:\wamp\www\nyu\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#9 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#11 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#12 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-04 09:33:12 Error: Fatal Error (4): syntax error, unexpected '$con' (T_VARIABLE), expecting ',' or ';' in [C:\wamp\www\nyu\app\View\Elements\right.ctp, line 48]
+2014-12-04 09:33:12 Error: [FatalErrorException] syntax error, unexpected '$con' (T_VARIABLE), expecting ',' or ';'
+Request URL: /nyu/Homes/view_profile/10/Vix%20Malwe
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 48, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\nyu...', 48, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-04 10:04:36 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\nyu\app\View\Homes\view_concert.ctp, line 42]
+2014-12-04 10:04:36 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /nyu/Homes/view_concert/7/Maahi
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 42, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\nyu...', 42, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-04 20:41:28 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'homes',
+  'class' => 'Home',
+  'ds' => 'default',
+)
+Request URL: /nyu/Homes/view_concert/8/ROCK%20TONIGHT
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Model.php(3566): Model->setSource('homes')
+#1 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\wamp\www\nyu\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\wamp\www\nyu\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Home', 'fields')
+#4 C:\wamp\www\nyu\app\View\Homes\view_concert.ctp(28): FormHelper->create('Home', Array)
+#5 C:\wamp\www\nyu\lib\Cake\View\View.php(948): include('C:\wamp\www\nyu...')
+#6 C:\wamp\www\nyu\lib\Cake\View\View.php(910): View->_evaluate('C:\wamp\www\nyu...', Array)
+#7 C:\wamp\www\nyu\lib\Cake\View\View.php(471): View->_render('C:\wamp\www\nyu...')
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-04 20:41:38 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'homes',
+  'class' => 'Home',
+  'ds' => 'default',
+)
+Request URL: /nyu/Homes/view_concert/8/ROCK%20TONIGHT
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Model.php(3566): Model->setSource('homes')
+#1 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 C:\wamp\www\nyu\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 C:\wamp\www\nyu\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Home', 'fields')
+#4 C:\wamp\www\nyu\app\View\Homes\view_concert.ctp(28): FormHelper->create('Home', Array)
+#5 C:\wamp\www\nyu\lib\Cake\View\View.php(948): include('C:\wamp\www\nyu...')
+#6 C:\wamp\www\nyu\lib\Cake\View\View.php(910): View->_evaluate('C:\wamp\www\nyu...', Array)
+#7 C:\wamp\www\nyu\lib\Cake\View\View.php(471): View->_render('C:\wamp\www\nyu...')
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-04 22:11:33 Warning: Warning (2): implode(): Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:11:33 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:11:33 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:11:33 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:11:33 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:11:33 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:11:33 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:11:33 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:11:33 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:11:47 Warning: Warning (2): implode(): Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:11:47 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:16:56 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:16:56 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:38:28 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:38:28 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:38:47 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:38:47 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:38:57 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:38:57 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:51:07 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:51:07 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:51:45 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:51:45 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:55:55 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:55:55 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 209]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 209
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:55:57 Warning: Warning (512): Method HtmlHelper::button does not exist in [C:\wamp\www\nyu\lib\Cake\View\Helper.php, line 192]
+Trace:
+Helper::__call() - CORE\Cake\View\Helper.php, line 192
+HtmlHelper::button() - APP\View\Homes\view_concert.ctp, line 38
+include - APP\View\Homes\view_concert.ctp, line 38
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 22:58:58 Error: Fatal Error (4): syntax error, unexpected 'FOLLOWED' (T_STRING), expecting ',' or ';' in [C:\wamp\www\nyu\app\View\Homes\view_concert.ctp, line 38]
+2014-12-04 22:58:58 Error: [InternalErrorException] Internal Server Error
+Request URL: /nyu/Homes/view_concert/7/Maahi
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 38, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\nyu...', 38, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-04 23:01:53 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /nyu/Home/view_concert
+Stack Trace:
+#0 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-04 23:04:40 Warning: Warning (2): implode(): Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:04:40 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:04:40 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:04:40 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:04:40 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:04:40 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:04:40 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:04:40 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:08:32 Warning: Warning (2): implode(): Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:08:32 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:08:32 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:08:32 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:08:32 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:08:32 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:08:32 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:08:32 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:08:32 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 164]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:17:32 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in [C:\wamp\www\nyu\app\View\Homes\index.ctp, line 23]
+2014-12-04 23:17:32 Error: [InternalErrorException] Internal Server Error
+Request URL: /nyu/Homes
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\nyu...', 23, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\nyu...', 23, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-04 23:29:24 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 210]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 210
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:29:24 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 210]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 210
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:43:49 Warning: Warning (2): Missing argument 2 for HomesController::rsvp() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 251]
+Trace:
+HomesController::rsvp() - APP\Controller\HomesController.php, line 251
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:44:17 Warning: Warning (2): Missing argument 2 for HomesController::rsvp() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 251]
+Trace:
+HomesController::rsvp() - APP\Controller\HomesController.php, line 251
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:44:51 Warning: Warning (2): Missing argument 2 for HomesController::rsvp() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 251]
+Trace:
+HomesController::rsvp() - APP\Controller\HomesController.php, line 251
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:44:53 Warning: Warning (2): Missing argument 2 for HomesController::rsvp() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 251]
+Trace:
+HomesController::rsvp() - APP\Controller\HomesController.php, line 251
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-04 23:53:23 Warning: Warning (2): Missing argument 2 for HomesController::rsvp() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 254]
+Trace:
+HomesController::rsvp() - APP\Controller\HomesController.php, line 254
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 00:07:56 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 270]
+2014-12-05 00:07:56 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /nyu/Homes/rsvp/8/599
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 270)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 270, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\nyu...', 270, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 00:21:23 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 210]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 210
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 00:21:23 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 210]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 210
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 00:31:16 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 210]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 210
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 00:31:16 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 210]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 210
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 00:31:47 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 210]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 210
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 00:31:47 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 210]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 210
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:07:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.abd' in 'field list'
+Request URL: /nyu/users/add
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\UsersController.php(6): Model->find('all')
+#7 [internal function]: UsersController->add()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-05 04:07:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.abd' in 'field list'
+Request URL: /nyu/users/add
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\nyu\app\Controller\UsersController.php(6): Model->find('all')
+#7 [internal function]: UsersController->add()
+#8 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-05 04:11:50 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 165]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 165
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:11:50 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 165]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 165
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:11:50 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 165]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 165
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:11:50 Warning: Warning (2): implode() [<a href='http://php.net/function.implode'>function.implode</a>]: Invalid arguments passed in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 165]
+Trace:
+implode - [internal], line ??
+HomesController::music_taste() - APP\Controller\HomesController.php, line 165
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:12:40 Warning: Warning (2): Missing argument 1 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 210]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 210
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:12:40 Warning: Warning (2): Missing argument 2 for HomesController::view_concert() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 210]
+Trace:
+HomesController::view_concert() - APP\Controller\HomesController.php, line 210
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:35:23 Error: [MissingActionException] Action UsersController::band() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'band',
+)
+Request URL: /nyu/users/band/Artist
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-05 04:36:44 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\band.ctp, line 14]
+Trace:
+include - APP\View\Homes\band.ctp, line 14
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:36:44 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\band.ctp, line 23]
+Trace:
+include - APP\View\Homes\band.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:37:19 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\band.ctp, line 14]
+Trace:
+include - APP\View\Homes\band.ctp, line 14
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:37:19 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\band.ctp, line 23]
+Trace:
+include - APP\View\Homes\band.ctp, line 23
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:47:06 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\bandcpanel.ctp, line 14]
+Trace:
+include - APP\View\Homes\bandcpanel.ctp, line 14
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:48:37 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\bandcpanel.ctp, line 14]
+Trace:
+include - APP\View\Homes\bandcpanel.ctp, line 14
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:50:53 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\bandcpanel.ctp, line 21]
+Trace:
+include - APP\View\Homes\bandcpanel.ctp, line 21
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:51:14 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\bandcpanel.ctp, line 21]
+Trace:
+include - APP\View\Homes\bandcpanel.ctp, line 21
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:51:29 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\bandcpanel.ctp, line 21]
+Trace:
+include - APP\View\Homes\bandcpanel.ctp, line 21
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:52:11 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\bandcpanel.ctp, line 21]
+Trace:
+include - APP\View\Homes\bandcpanel.ctp, line 21
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:56:40 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\bandcpanel.ctp, line 27]
+Trace:
+include - APP\View\Homes\bandcpanel.ctp, line 27
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:56:58 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\bandcpanel.ctp, line 27]
+Trace:
+include - APP\View\Homes\bandcpanel.ctp, line 27
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:58:08 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\bandcpanel.ctp, line 27]
+Trace:
+include - APP\View\Homes\bandcpanel.ctp, line 27
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 04:58:10 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\bandcpanel.ctp, line 27]
+Trace:
+include - APP\View\Homes\bandcpanel.ctp, line 27
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 05:08:41 Error: [MissingTableException] Table band_status for model BandStatus was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'band_status',
+  'class' => 'BandStatus',
+  'ds' => 'default',
+)
+Request URL: /nyu/Homes/bandcpanel
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Model.php(3566): Model->setSource('band_status')
+#1 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 C:\wamp\www\nyu\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\nyu\app\Controller\HomesController.php(335): Model->find('all', Array)
+#4 [internal function]: HomesController->bandcpanel()
+#5 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#6 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#8 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-12-05 05:51:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 337]
+2014-12-05 05:51:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /nyu/Homes/bandcpanel/44/12
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 337)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 337, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\nyu...', 337, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 05:54:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 339]
+2014-12-05 05:54:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /nyu/Homes/bandcpanel/44/12
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 05:55:20 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 339]
+2014-12-05 05:55:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /nyu/Homes/bandcpanel/44/12
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 05:55:24 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 339]
+2014-12-05 05:55:24 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /nyu/Homes/bandcpanel
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 05:55:30 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 339]
+2014-12-05 05:55:30 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /nyu/Homes/bandcpanel/44/12
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\nyu...', 339, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 05:56:56 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 340]
+2014-12-05 05:56:56 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /nyu/Homes/bandcpanel/44/12
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 340)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\nyu...', 340, Array)
+#2 C:\wamp\www\nyu\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\nyu...', 340, Array)
+#3 C:\wamp\www\nyu\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-05 06:23:29 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\search_by_name.ctp, line 15]
+Trace:
+include - APP\View\Homes\search_by_name.ctp, line 15
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:23:34 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 14]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 14
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:23:34 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 24]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 24
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:36:10 Warning: Warning (2): Missing argument 1 for HomesController::bandcpanel() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 324]
+Trace:
+HomesController::bandcpanel() - APP\Controller\HomesController.php, line 324
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:36:10 Warning: Warning (2): Missing argument 2 for HomesController::bandcpanel() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 324]
+Trace:
+HomesController::bandcpanel() - APP\Controller\HomesController.php, line 324
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:36:43 Warning: Warning (2): Missing argument 1 for HomesController::bandcpanel() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 324]
+Trace:
+HomesController::bandcpanel() - APP\Controller\HomesController.php, line 324
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:36:43 Warning: Warning (2): Missing argument 2 for HomesController::bandcpanel() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 324]
+Trace:
+HomesController::bandcpanel() - APP\Controller\HomesController.php, line 324
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:36:43 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'band_id' cannot be null
+Request URL: /nyu/Homes/bandcpanel
+Stack Trace:
+#0 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `ny...', Array)
+#2 C:\wamp\www\nyu\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `ny...')
+#3 C:\wamp\www\nyu\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Bandstatus), Array, Array)
+#4 C:\wamp\www\nyu\app\Controller\HomesController.php(333): Model->save(Array)
+#5 [internal function]: HomesController->bandcpanel()
+#6 C:\wamp\www\nyu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(HomesController), Array)
+#7 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\nyu\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#9 C:\wamp\www\nyu\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-05 06:37:32 Warning: Warning (2): Missing argument 1 for HomesController::bandcpanel() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 324]
+Trace:
+HomesController::bandcpanel() - APP\Controller\HomesController.php, line 324
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:37:32 Warning: Warning (2): Missing argument 2 for HomesController::bandcpanel() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 324]
+Trace:
+HomesController::bandcpanel() - APP\Controller\HomesController.php, line 324
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:38:00 Warning: Warning (2): Missing argument 1 for HomesController::bandcpanel() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 324]
+Trace:
+HomesController::bandcpanel() - APP\Controller\HomesController.php, line 324
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:38:00 Warning: Warning (2): Missing argument 2 for HomesController::bandcpanel() in [C:\wamp\www\nyu\app\Controller\HomesController.php, line 324]
+Trace:
+HomesController::bandcpanel() - APP\Controller\HomesController.php, line 324
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:40:52 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\search_by_name.ctp, line 15]
+Trace:
+include - APP\View\Homes\search_by_name.ctp, line 15
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:40:56 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 14]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 14
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:40:56 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 22]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 22
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:40:56 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 37]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 37
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:41:40 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\search_by_name.ctp, line 15]
+Trace:
+include - APP\View\Homes\search_by_name.ctp, line 15
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:41:43 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 11]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 11
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:41:43 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 32]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 32
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:41:43 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 40]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 40
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:41:43 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 55]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 55
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:42:56 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 32]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 32
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:42:56 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 55]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 55
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:43:00 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 32]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 32
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:43:00 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 55]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 55
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:43:37 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 32]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 32
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:43:37 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 55]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 55
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:43:46 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 32]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 32
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:43:46 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 55]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 55
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:45:58 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 32]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 32
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:45:58 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 55]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 55
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:47:01 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 32]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 32
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:47:01 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 55]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 55
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:47:48 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 32]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 32
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-12-05 06:47:48 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\nyu\app\View\Homes\view_band.ctp, line 55]
+Trace:
+include - APP\View\Homes\view_band.ctp, line 55
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
